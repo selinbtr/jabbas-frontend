@@ -31,7 +31,7 @@ fetch('https://jabbas.herokuapp.com/zipcodes').then(data=>data.json()).then(d=>{
 
         var hikeMap = L.map("map", {
             center: coordinates,
-            zoom: 8,
+            zoom: 9,
         });
 
         var lightMap = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
